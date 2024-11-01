@@ -1,0 +1,63 @@
+@layer components {
+.dark-bg{
+    color: #0b5f7d;
+}
+.light-bg{
+    color: #04759c; 
+}
+.c-bg-hover:hover{
+  background-color: #0c94c114; 
+}
+.bg-color{
+    background: linear-gradient(to bottom, #0b5f7d, #04759c);
+}
+.mb-bg-color{
+  background : linear-gradient(to bottom, #0b5f7d, #04759c);
+}
+.overline{
+  text-decoration: overline;
+}
+/* .btn-bg{
+    background-color: #0b5f7d;
+} */
+/* .img-width {
+    width: 18rem; 
+} */
+
+.hidden-on-mobile {
+    display: none;
+  }
+
+.c-text-xs {
+  font-size: .6rem;
+}
+
+
+
+}
+
+@layer utilities {
+
+  @media (min-width: 1024px) {
+    .hidden-on-mobile {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .mb-bg-color {
+      background: transparent;
+    }
+  }
+
+@media (min-width: 640px) { 
+    .width {
+        width: 22rem; 
+    }
+}
+@media (min-width: 1024px) {
+    .lg-light-bg {
+      color: #04759c
+    }
+  }
+}
