@@ -12,7 +12,7 @@
     <div>
 
         <!-- HEADER  -->
-        <div class="min-h-screen bg-stone-300 lg:bg-transparent">
+        <div class="min-h-screen ">
             <!-- Header   -->
 <div
 class="sticky mainDiv bg-color text-white p-2 lg:p-3 flex justify-between rounded-br-3xl  rounded-bl-3xl  h-1/4"
@@ -35,8 +35,8 @@ class="sticky mainDiv bg-color text-white p-2 lg:p-3 flex justify-between rounde
      <span
        class="bg-red-600 h-5 w-5 text-xs lg:text-sm rounded-full flex justify-center items-center"
        >1</span
-     >
-     <span class="text-lg lg:text-2xl">🔊</span>
+     ><a href="" class="text-lg lg:text-2xl">🔊</a>
+     <!-- <span class="text-lg lg:text-2xl">🔊</span> -->
    </div>
  </div>
 </div>
@@ -67,62 +67,61 @@ Sunday 6th October
 
             <!-- Footer  -->
 <div class="lg:p-3 text-stone-400 lg-light-bg  lg:m-3">
-<div class="flex gap-2 lg:gap-10 items-center">
+<div class="flex gap-3  items-center">
 <div
-class="mb-bg-color flex gap-10 items-center justify-between lg:relative lg:bottom-auto lg:w-auto fixed bottom-0 w-full px-6 py-2 "
+class=" flex gap-2 sm:gap-5 lg:gap-10 items-center justify-between  p-2 "
 ><a href="" class="block">
 <div class="flex flex-col items-center c-bg-hover statusDiv" > 
- <img src="./assets/images/svgs/home.svg" class="fa-solid fa-hospital lg-light-bg w-6 lg:w-10 " alt="">
- <!-- <i class="fa-solid fa-house lg-light-bg text-xl "></i> -->
+ <img src="./assets/images/svgs/home.svg" class="  lg-light-bg w-6 lg:w-10 " alt="">
  <span class="font-medium c-text-xs sm:text-base lg-light-bg">Home</span>
 </div>
 </a>
 <a href="" class="block">
 <div class="flex flex-col items-center c-bg-hover statusDiv">
- <img src="./assets/images/svgs/report-2.svg" class="fa-solid fa-hospital lg-light-bg w-6 lg:w-10 " alt="">
+ <img src="./assets/images/svgs/report-2.svg" class="  lg-light-bg w-6 lg:w-10 " alt="">
  <!-- <i class="fa-solid fa-chart-line lg-light-bg text-xl"></i> -->
  <span class="font-medium c-text-xs sm:text-base lg-light-bg">Reports</span>
 </div>
 </a>
 <a href="" class="block">
 <div class="flex flex-col items-center c-bg-hover statusDiv">
- <img src="./assets/images/svgs/my-stats.svg" class="fa-solid fa-hospital lg-light-bg w-6 lg:w-10 " alt="">
+ <img src="./assets/images/svgs/my-stats.svg" class="  lg-light-bg w-6 lg:w-10 " alt="">
  <!-- <i class="fa-solid fa-chart-pie lg-light-bg text-xl"></i> -->
  <span class="font-medium c-text-xs sm:text-base lg-light-bg">My Status </span>
 </div>
 </a>
 <a href="" class="block">
 <div class="flex flex-col items-center c-bg-hover statusDiv">
- <img src="./assets/images/svgs/site-stats.svg" class="fa-solid fa-hospital lg-light-bg w-6 lg:w-10 " alt="">
+ <img src="./assets/images/svgs/site-stats.svg" class="  lg-light-bg w-6 lg:w-10 " alt="">
  <!-- <i class="fa-solid fa-chart-gantt lg-light-bg text-xl"></i> -->
  <span class="font-medium c-text-xs sm:text-base lg-light-bg">Site Status </span>
 </div></a>
 <a href="" class="block">
 <div class="flex flex-col items-center c-bg-hover statusDiv" >
- <img src="./assets/images/svgs/emergency.svg" class="fa-solid fa-hospital lg-light-bg w-6 lg:w-10 " alt="">
- <!-- <i class="fa-solid fa-hospital lg-light-bg text-xl"></i> -->
+ <img src="./assets/images/svgs/emergency.svg" class="  lg-light-bg w-6 lg:w-10 " alt="">
+ <!-- <i class="  lg-light-bg text-xl"></i> -->
  <span class="font-medium c-text-xs sm:text-base lg-light-bg">Emergency </span>
 </div>
 </a>
+<a href="" class="block">
+    <div
+     class="text-2xl sm:text-4xl bg-yellow-400 p-2 rounded-md flex flex-col items-center"
+    >
+    <img src="./assets/images/svgs/report-2.svg" class="  lg-light-bg w-6 lg:w-10 " alt="">
+     <span class="font-medium block text-xs text-black"
+       >New Report
+     </span>
+    </div>
+    </a>
 </div>
 
 <div
-class="flex items-center justify-center gap-5 ml-auto lg:relative lg:bottom-0 lg:right-0 fixed bottom-20 right-1 "
+class="flex items-center justify-center gap-5 ml-auto "
 >
-<a href="" class="block">
-<div
- class="text-2xl sm:text-4xl bg-yellow-400 p-2 rounded-md flex flex-col items-center"
->
-<img src="./assets/images/svgs/report-2.svg" class="fa-solid fa-hospital lg-light-bg w-6 lg:w-10 " alt="">
- <i class="fa-solid fa-folder-plus text-white text-xl t"></i>
- <span class="font-medium block text-xs text-black"
-   >New Report
- </span>
-</div>
-</a>
+
 <div class="flex justify-center items-center " >
-<img src="./assets/images/svgs/Arrow.svg" class="lg-light-bg w-6 lg:w-10 " alt="">
-<span class="font-medium c-text-xs sm:text-base lg-light-bg underline">Log out</span>
+    <a href="" class="font-medium c-text-xs sm:text-base lg-light-bg underline">Log out</a>
+<!-- <span class="font-medium c-text-xs sm:text-base lg-light-bg underline">Log out</span> -->
 </div>
 </div>
 </div>
@@ -135,13 +134,13 @@ class="flex items-center justify-center gap-5 ml-auto lg:relative lg:bottom-0 lg
 
 
                   <!-- HOME PAGE  -->
-    <div class="flex flex-col gap-3 items-center my-3 p-15">
+    <div class="flex flex-col gap-5 items-center my-5 p-15">
         <!-- Banner Image -->
         <div class="flex ">
-            <img src="./assets/images/banner.png" class="w-[30rem] h-[16.875rem] lg:w-[50rem] lg:h-[28.125rem]" alt="banner">
+            <img src="./assets/images/banner.png" class="w-[25rem] sm:w-[30rem] sm:h-[16.875rem] lg:w-[50rem] lg:h-[28.125rem]" alt="banner">
         </div>
         <!-- icons div  -->
-         <div class="flex gap-4 lg:gap-6 bg-color py-2 px-3 lg:px-5 text-white  lg:w-[60rem] justify-between rounded-xl flex-wrap mx-10">
+         <div class="flex gap-3 lg:gap-6 bg-color py-2 px-3 lg:px-5 text-white w-[25rem] sm:w-[30rem] lg:w-[60rem] justify-between rounded-xl flex-wrap mx-10">
             <div class="flex items-center">
                 <img src="./assets/images/svgs/Injury.svg" class="h-10" alt="">
                 <div class="flex flex-col   items-center">
@@ -179,30 +178,32 @@ class="flex items-center justify-center gap-5 ml-auto lg:relative lg:bottom-0 lg
             </div>
          </div>
          <!--Profile & Explore div  -->
-          <div class="flex flex-col lg:flex-row gap-3">
+          <div class="flex flex-col lg:flex-row gap-3 items-center">
        <!-- Profile  -->
-             <div class="flex flex-col border border-stone-200 rounded-xl items-center px-5 py-2 w-[30rem]">
+        <div class="flex flex-row">
+             <div class="flex flex-col border border-stone-200 rounded-xl items-center  px-5 py-2 w-[25rem] sm:w-[30rem] lg:w-auto
+             ">
                 <div class="flex justify-between items-center w-full">
                     <p class="text-left text-xs">on October</p>
                     <h3 class="mx-auto text-center font-semibold">Monthly HSE Leaderboard</h3>
                 </div>
                 <div class="flex  ">
                     <div class="flex gap-3 text-white   font-semibold">
-                        <div class="flex flex-col bg-color rounded-xl gap-1 px-5 py-2 items-center  ">
+                        <div class="flex flex-col bg-color rounded-xl gap-1 px-3 py-2 items-center  ">
                             <h3>Top Reporter</h3>
                             <img src="./assets/images/profile2.webp" class="w-20 h-20 object-cover object-top rounded-full" alt="user-profile">
                             <h3>Shayan Khan</h3>
                             <p class="text-xs font-light">Production</p>
                             <p class="text-xs font-light"><span class="font-semibold text-base">156</span> Reports</p>
                         </div>
-                        <div class="flex flex-col bg-color rounded-xl  gap-1 px-5 py-2 items-center  ">
+                        <div class="flex flex-col bg-color rounded-xl  gap-1 px-3 py-2 items-center  ">
                             <h3>Top Closer</h3>
                             <img src="./assets/images/profile3.webp" class="w-20 h-20 object-cover object-top rounded-full" alt="user-profile">
                             <h3>Shayan Khan</h3>
                             <p class="text-xs font-light">Production</p>
                             <p class="text-xs font-light"><span class="font-semibold text-base">156</span> Reports</p>
                         </div>
-                        <div class="flex flex-col bg-color rounded-xl  gap-1 px-5 py-2 items-center  ">
+                        <div class="flex flex-col bg-color rounded-xl  gap-1 px-3 py-2 items-center  ">
                             <h3>Top Reporter</h3>
                             <img src="./assets/images/profile4.webp" class="w-20 h-20 object-cover object-top rounded-full" alt="user-profile">
                             <h3>Shayan Khan</h3>
@@ -211,50 +212,60 @@ class="flex items-center justify-center gap-5 ml-auto lg:relative lg:bottom-0 lg
                         </div>
                     </div>
                 </div>
-             </div>
+            </div>
+        </div>
             <!-- explore div -->
-             <div class="flex flex-col gap-2 w-[30rem]">
-                <h3>Explore</h3>
-                <div class="flex flex-wrap gap-3">
-                    <div class="flex flex-col border border-stone-200 px-2 py-1 rounded-xl items-center">
+             <div class="flex flex-row">
+             <div class="flex flex-col gap-2 w-[25rem] sm:w-[30rem] items-center">
+                <h3 class="text-left">Explore</h3>
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <a href="" class="block">
+                    <div class="flex flex-col border border-stone-200 p-2 rounded-xl items-center">
                         <img src="./assets/images/svgs/report-2.svg" class="w-10" alt="">
                         <p>Open report</p>
-                    </div>
-                    <div class="flex flex-col border border-stone-200 px-2 py-1 rounded-xl items-center">
+                    </div></a>
+                    <a href="" class="block">
+                    <div class="flex flex-col border border-stone-200 p-2 rounded-xl items-center">
                         <img src="./assets/images/svgs/Closed Report.svg" class="w-10" alt="">
                         <p>Open report</p>
-                    </div>
-                    <div class="flex flex-col border border-stone-200 px-2 py-1 rounded-xl items-center">
+                    </div></a>
+                    <a href="" class="block">
+                    <div class="flex flex-col border border-stone-200 p-2 rounded-xl items-center">
                         <img src="./assets/images/svgs/my-stats.svg" class="w-10" alt="">
                         <p>Open report</p>
-                    </div>
-                    <div class="flex flex-col border border-stone-200 px-2 py-1 rounded-xl items-center">
+                    </div></a>
+                    <a href="" class="block">
+                    <div class="flex flex-col border border-stone-200 p-2 rounded-xl items-center">
                         <img src="./assets/images/svgs/site-stats.svg" class="w-10" alt="">
                         <p>Open report</p>
-                    </div>
-                    <div class="flex flex-col border border-stone-200 px-2 py-1 rounded-xl items-center">
+                    </div></a>
+                    <a href="" class="block">
+                    <div class="flex flex-col border border-stone-200 p-2 rounded-xl items-center">
                         <img src="./assets/images/svgs/HSE Team.svg" class="w-10" alt="">
                         <p>Open report</p>
-                    </div>
-                    <div class="flex flex-col border border-stone-200 px-2 py-1 rounded-xl items-center">
+                    </div></a>
+                    <a href="" class="block">
+                    <div class="flex flex-col border border-stone-200 p-2 rounded-xl items-center">
                         <img src="./assets/images/svgs/HSE Policy.svg" class="w-10" alt="">
                         <p>Open report</p>
-                    </div>
-                    <div class="flex flex-col border border-stone-200 px-2 py-1 rounded-xl items-center">
+                    </div></a>
+                    <a href="" class="block">
+                    <div class="flex flex-col border border-stone-200 p-2 rounded-xl items-center">
                         <img src="./assets/images/svgs/HSE Learning.svg" class="w-10" alt="">
                         <p>Open report</p>
-                    </div>
-                    <div class="flex flex-col border border-stone-200 px-2 py-1 rounded-xl items-center">
+                    </div></a>
+                    <a href="" class="block">
+                    <div class="flex flex-col border border-stone-200 p-2 rounded-xl items-center">
                         <img src="./assets/images/svgs/Evacuation Plan.svg" class="w-10" alt="">
                         <p>Open report</p>
-                    </div>
+                    </div></a>
                 </div>
-             </div>
+            </div>
 
           </div>
+        </div>
               
     </div>
-
-</div>
+  </div>
 </body>
 </html>
